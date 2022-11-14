@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>css</title>
+<style>
+#title{
+text-align:center;
+font-size:52px;
+background-color:#d2c8ff;
+ color:rgba(269, 58, 21, 0.6);
+}
+.box{
+ border:solid 5px red;
+ margin-bottom:5px;
+ padding:20px;
+}
+.box2{
+ border:dashed 5px blue;
+ margin-bottom:5px;
+ padding:20px;
+}
+
+.t-right{
+ text-align:right;
+}
+.t-center{
+ text-align:center;
+}
+.t-left{
+ text-align:left;
+}
+.t-justify{
+ text-align:justify;
+}
+
+.tl-right{
+ text-align-last:right;
+}
+.tl-center{
+ text-align-last:center;
+}
+.tl-left{
+ text-align-last:left;
+}
+.tl-justify{
+ text-align-last:justify;
+}
+
+.direc{
+ direction:rtl;
+ unicode-bidi:bidi-override;
+}
+
+.bline{
+ vertical-align:baseline;
+ font-size:10px;
+}
+.ttop{
+ vertical-align:text-top;
+ font-size:10px;
+}
+.tbuttom{
+ vertical-align:text-buttom;
+ font-size:10px;
+}
+.sub{
+ vertical-align:sub;
+ font-size:10px;
+}
+.super{
+ vertical-align:super;
+ font-size:10px;
+}
+
+.unl{
+ text-decoration-line:underline;
+}
+.overline{
+ text-decoration-line:overline;
+}
+.line-through{
+ text-decoration-line:line-through;
+}
+.oiu{
+ text-decoration:overline underline;
+}
+
+.brown{
+ text-decoration-line:underline;
+ text-decoration-color:brown;
+}
+.blue{
+ text-decoration-line:underline;
+ text-decoration-color:blue;
+}
+.red{
+ text-decoration-line:underline;
+ text-decoration-color:red;
+}
+.green{
+ text-decoration-line:underline;
+ text-decoration-color:green;
+}
+
+.double{
+ text-decoration-line:underline;
+ text-decoration-style:double
+}
+.dotted{
+ text-decoration-line:underline;
+ text-decoration-style:dotted;
+}
+.dashed{
+ text-decoration-line:underline;
+ text-decoration-style:dashed;
+}
+.wavy{
+ text-decoration-line:underline;
+ text-decoration-color:purple;
+ text-decoration-style:wavy;
+}
+
+.t-px{
+ text-decoration-line:underline;
+ text-decoration-thickness:10px;
+}
+.t-precentage{
+ text-decoration-line:underline;
+ text-decoration-thickness:50%;
+}
+.t-auto{
+ text-decoration-line:underline;
+ text-decoration-thickness:auto;
+}
+
+.t-all1{
+ text-decoration:overline green double 5px;
+}
+.t-all2{
+ text-decoration:underline yellow wavy 5px;
+}
+
+.uc{
+ text-transform:uppercase;
+}
+.lc{
+ text-transform:lowercase;
+}
+.cap{
+ text-transform:capitalize;
+}
+
+.text-in{
+ text-indent:20px;
+}
+.letter-spacing{
+ letter-spacing:2px;
+}
+.word-spacing{
+ word-spacing:10px;
+}
+.white-space{
+ white-space:wrap;
+}
+.line-height{
+ line-height:15px;
+}
+
+#ok {
+ text-shadow: 1px 2px 2px red;
+}
+#okk{
+ text-shadow: 2px 4px 4px yellow;
+}
+</style>
+</head>
+<body>
+<h1 id="title">css</h1>
+<section>
+ <div class="box">
+  <h2>Text-align</h2>
+  <h3>Text-align:right</h3>
+  <p class="t-right">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+  The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+ <h3>Text-align:center</h3>
+ <p class="t-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+ The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+ <h3>Text-align:left</h3>
+<p class="t-left">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+ The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+ <h3>Text-align:justify</h3>
+<p class="t-justify">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+ The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+ </div>
+ <div class="box">
+ <h2>Text-align-last</h2>
+ <h3>Text-align-last:right</h3>
+  <p class="tl-right">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+  The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+ <h3>Text-align-last:center</h3>
+ <p class="tl-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+ The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+ <h3>Text-align-last:left</h3>
+<p class="tl-left">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+ The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+ <h3>Text-align-last:justify</h3>
+<p class="tl-justify">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+ The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+ </div>
+ <div class="box">
+ <h2>Direction-rtl</h2>
+ <p class="direc">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+ </div>
+ <dir class="box">
+   <h2>Virtical-align</h2>
+   <h3>virtical-align:baseline</h3>
+   <p>BING<span class="bline">O</span></p>
+   <h3>virtical-align:text-top</h3>
+   <p>BING<span class="ttop">O</span></p>
+   <h3>virtical-align:text-buttom</h3>
+   <p>BING<span class="tbuttom">O</span></p>
+   <h3>virtical-align:sub</h3>
+   <p>BING<span class="sub">O</span></p>
+   <h3>virtical-align:super</h3>
+   <p>BING<span class="super">O</span></p>
+ </div>
+</section>
+<section>
+<div class="box">
+<h2>text-decoration-line</h2>
+
+<h3>text-decoration-line:underline</h3>
+<p class="unl">therefore always free from repetition</p>
+
+<h3>text-decoration-line:overline</h3>
+<p class="overline">therefore always free from repetition</p>
+
+<h3>text-decoration-line:line-through</h3>
+<p class="line-through">therefore always free from repetition</p>
+
+<h3>text-decoration-line:overline underline</h3>
+<p class="oiu">therefore always free from repetition</p>
+</div>
+<div class="box">
+<h2>text-decoration-line</h2>
+
+<h3>text-decoration-color:yellow</h3>
+<p class="brown">therefore always free from repetition</p>
+
+<h3>text-decoration-color:blue</h3>
+<p class="blue">therefore always free from repetition</p>
+
+<h3>text-decoration-color:red</h3>
+<p class="red">therefore always free from repetition</p>
+
+<h3>text-decoration-color:green</h3>
+<p class="green">therefore always free from repetition</p>
+</div>
+<div class="box">
+<h2>text-decoration-style</h2>
+
+<h3>text-decoration-style:double</h3>
+<p class="double">therefore always free from repetition</p>
+
+<h3>text-decoration-style:dotted</h3>
+<p class="dotted">therefore always free from repetition</p>
+
+<h3>text-decoration-style:dashed</h3>
+<p class="dashed">therefore always free from repetition</p>
+
+<h3>text-decoration-style:wavy</h3>
+<p class="wavy">therefore always free from repetition</p>
+</div>
+<div class="box">
+<h2>text-decoration-thickness</h2>
+
+<h3>text-decoration-thickness:10px</h3>
+<p class="t-px">therefore always free from repetition</p>
+
+<h3>text-decoration-thickness:50%</h3>
+<p class="t-precentage">therefore always free from repetition</p>
+
+<h3>text-decoration-thickness:auto</h3>
+<p class="t-auto">therefore always free from repetition</p>
+
+</div>
+<div class="box">
+<h2>text-decoration</h2>
+
+<p class="t-all1">therefore always free from repetition</p>
+
+<p class="t-all2">therefore always free from repetition</p>
+</div>
+</section>
+<section>
+<div class="box">
+ <h2>text-transform</h2>
+ <h3>uppercase</h3>
+ <p class="uc">the majority have suffered alteration in some form</p>
+ 
+ <h3>lowercase</h3>
+ <p class="lc">the majority have suffered alteration in some form</p>
+ 
+ <h3>capitalize</h3>
+ <p  class="cap">the majority have suffered alteration in some form</p>
+</div>
+</section>
+<section>
+<div class="box">
+ <h2>Text spacing</h2>
+ <h3>text-indent<h3>
+ <p class="text-in">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+ The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+  
+ <h3>letter-spacing<h3>
+ <p class="letter-spacing">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+ The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+ 
+ <h3>word-spacing<h3>
+ <p class="word-spacing">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+ The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+  
+ <h3>white-space<h3>
+ <p class="white-space">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+ The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+ value <h2>Text spacing</h2>
+ <h3>line-height<h3>
+ <p class="line-height">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.
+ The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+</div>
+</section>
+<section>
+<div class="box2">
+ <h2>Text-shadow</h2>
+ <h4 id="ok">KARTHICK</h4>
+ <h4 id="okk">THE KING</h4>
+</div>
+</section>
+
+</body>
+</html>
